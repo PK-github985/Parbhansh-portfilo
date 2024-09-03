@@ -58,11 +58,19 @@ body {
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 
+.logo img {
+    height: 50px; /* Adjust this value to change the size of the logo */
+    width: auto;  /* Maintains the aspect ratio of the image */
+    margin-right: auto; /* Keeps the alignment similar to before */
+}
+
+/* Optionally, you can remove text-specific styles if not needed */
 .logo {
-    font-size: 2.5rem;
-    color: var(--main-color);
-    font-weight: 600;
-    margin-right: auto;
+    font-size: 0; /* Set to 0 to remove text styling if necessary */
+    color: inherit; /* Keeps color inheritance */
+    font-weight: normal; /* Reset font-weight since it's an image now */
+}
+
 }
 
 .navbar a {
