@@ -59,18 +59,9 @@ body {
 }
 
 .logo img {
-    height: 50px; /* Adjust this value to change the size of the logo */
-    width: auto;  /* Maintains the aspect ratio of the image */
-    margin-right: auto; /* Keeps the alignment similar to before */
-}
-
-/* Optionally, you can remove text-specific styles if not needed */
-.logo {
-    font-size: 0; /* Set to 0 to remove text styling if necessary */
-    color: inherit; /* Keeps color inheritance */
-    font-weight: normal; /* Reset font-weight since it's an image now */
-}
-
+    height: 30px; /* Set a small height */
+    width: 100px; /* Explicitly set the width */
+    margin-right: auto; 
 }
 
 .navbar a {
