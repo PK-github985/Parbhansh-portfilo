@@ -59,9 +59,9 @@ body {
 }
 
 .logo img {
-    height: 30px; /* Set a small height */
-    width: 100px; /* Explicitly set the width */
-    margin-right: auto; 
+    height: 30px; /* Smaller height */
+    width: auto;  /* Keeps the aspect ratio */
+    margin-right: auto; /* Aligns the logo correctly */
 }
 
 .navbar a {
